@@ -4,7 +4,7 @@ This file provides guidance to AI assistants when working with code in this repo
 
 ## Project Overview
 
-Personal website for jakebellacera.com, built with Astro 6 and hosted on GitHub Pages. Deploys automatically on merge to main.
+Personal website for jakebellacera.com, built with Astro 6 and hosted on Vercel. Deploys automatically on merge to main. Uses Vercel Web Analytics for privacy-focused visitor tracking.
 
 ## Commands
 
