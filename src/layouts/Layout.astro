@@ -34,7 +34,7 @@ const navItems = [
 	<body class="font-sans antialiased bg-white text-neutral-900 dark:bg-neutral-950 dark:text-neutral-100">
 		<div class="mx-auto sm:w-xl p-6 sm:py-12">
 			<header class="top-6 sticky">
-				<nav class="flex gap-2 p-2 -mx-2 before:absolute before:top-0 before:bottom-0 before:-left-2 before:-right-2 before:rounded-full before:transition-opacity before:duration-500">
+				<nav class="flex gap-2 p-2 -mx-2 before:absolute before:top-0 before:bottom-0 before:-left-2 before:-right-2 before:rounded-full before:transition-opacity before:duration-500 before:opacity-0 before:-z-1 before:bg-[--alpha(var(--color-neutral-100)/50%)] before:border before:border-black/10 dark:before:bg-[--alpha(var(--color-neutral-950)/50%)] dark:before:border-white/15 --stuck:before:opacity-100">
 					{navItems.map(({ href, label, icon }) => (
 						<a href={href} class:list={["flex font-bold px-3 py-1 rounded-full items-center gap-1", {
 							"bg-link text-white dark:text-neutral-900 dark:bg-link-dark": pathname === href,
@@ -56,11 +56,7 @@ const navItems = [
 	}
 
 	nav::before {
-		opacity: 0;
-		z-index: -1;
 		backdrop-filter: blur(4px) brightness(110%);
-		background: --alpha(var(--color-neutral-100) / 50%);
-		border: 1px solid rgba(0,0,0,0.1);
 		box-shadow:
 			inset 0px 2px 4px rgba(255, 255, 255, 0.05),
 			0 2px 4px rgba(0, 0, 0, 0.05);
@@ -68,18 +64,10 @@ const navItems = [
 
 	@media (prefers-color-scheme: dark) {
 		nav::before {
-			background: --alpha(var(--color-neutral-950) / 50%);
 			backdrop-filter: blur(4px) brightness(80%);
-			border: 1px solid rgba(255,255,255,0.15);
 			box-shadow:
 				inset 0px -2px 4px rgba(0, 0, 0, 0.25),
 				0px 2px 4px rgba(255, 255, 255, 0.05);
-		}
-	}
-
-	@container siteheader scroll-state(stuck: top) {
-		nav::before {
-			opacity: 1;
 		}
 	}
 </style>
