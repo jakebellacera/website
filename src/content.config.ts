@@ -8,7 +8,7 @@ const company = defineCollection({
     z.object({
       id: z.string(),
       name: z.string(),
-      descsription: z.string(),
+      description: z.string(),
       location: z.string(),
       logo: image(),
       logoDark: image().optional(),
