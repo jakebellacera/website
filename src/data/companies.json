@@ -1,0 +1,40 @@
+[
+  {
+    "id": "databricks",
+    "name": "Databricks",
+    "description": "Cloud-based platform for data analytics and artifictal intelligence.",
+    "location": "San Francisco, CA (Remote)",
+    "logo": "./images/companies/databricks-logo.svg",
+    "logoDark": "./images/companies/databricks-logo-dark.svg"
+  },
+  {
+    "id": "harness",
+    "name": "Harness",
+    "description": "Cloud-based platform for automating the entire SLDC (build, test, deploy, release, etc).",
+    "location": "San Francisco, CA (Remote)",
+    "logo": "./images/companies/harness-logo.svg"
+  },
+  {
+    "id": "split-software",
+    "name": "Split Software",
+    "description": "Cloud-based feature flagging platform for release management and experimentation (A/B tests). Acquired by Harness in 2024.",
+    "location": "Redwood City, CA (Remote)",
+    "logo": "./images/companies/split-logo.svg"
+  },
+  {
+    "id": "eleven",
+    "name": "Eleven, Inc",
+    "description": "Advertising agency specalizing in digital experiences. Acquired by Plus Company in October 2022.",
+    "location": "San Francisco, CA",
+    "logo": "./images/companies/eleven-logo.svg",
+    "logoDark": "./images/companies/eleven-logo-dark.svg"
+  },
+  {
+    "id": "wonderful-union",
+    "name": "Wonderful Union",
+    "description": "Agency focused on VIP experiences as well as digital branding of artists. Acquired by WME Group in 2018.",
+    "location": "Sacramento, CA",
+    "logo": "./images/companies/wonderful-union-logo.svg",
+    "logoDark": "./images/companies/wonderful-union-logo-dark.svg"
+  }
+]
