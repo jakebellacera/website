@@ -11,7 +11,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "check": "biome check",
-    "check:write": "biome check --write",
+    "check:fix": "biome check --write",
     "check:ci": "biome ci"
   },
   "dependencies": {
