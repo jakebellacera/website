@@ -1,12 +1,10 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
-@custom-variant --stuck (@container siteheader scroll-state(stuck: top));
-
 @theme {
   --font-sans: "Geist", sans-serif;
-  --color-link: oklch(79.5% 0.184 86.047); /* yellow-500 */
-  --color-link-hover: oklch(68.1% 0.162 75.834); /* yellow-600 */
-  --color-link-dark: oklch(79.5% 0.184 86.047); /* yellow-500 */
-  --color-link-dark-hover: oklch(85.2% 0.199 91.936); /* yellow-400 */
+  --color-link: oklch(64.5% 0.246 16.439); /* rose-500 */
+  --color-link-hover: oklch(58.6% 0.253 17.585); /* rose-600 */
+  --color-link-dark: oklch(64.5% 0.246 16.439); /* rose-500 */
+  --color-link-dark-hover: oklch(71.2% 0.194 13.428); /* rose-400 */
 }
