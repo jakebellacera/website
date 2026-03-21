@@ -10,13 +10,6 @@ skills:
   - WordPress
   - SEO
   - Figma
-responsibilities:
-  - Managed Split's corporate website
-  - Product sign up flow and in-product growth marketing activities
-  - Worked closely with Product marketing, Design and Product teams to develop assets
-  - Managed marketing automation pipeline
-  - Managed SEO strategy
-  - Managed social media presence
 ---
 
 Lead Split Software's corporate website as well as digital marketing operations and execution.

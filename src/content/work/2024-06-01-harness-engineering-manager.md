@@ -11,11 +11,6 @@ skills:
   - TypeScript
   - GraphQL
   - Java
-responsibilities:
-  - Led FME's experimentation team
-  - Rearchitected Experimentation functionality
-  - Led Harness Pipelines integration for FME
-  - Led team through acquisition
 ---
 
 Led a team of 8 software engineers to revamp FME’s (formerly Split Software) Experimentation platform, enabling a more streamlined user experience and Warehouse Native experimentation. During this time, I was also heavily involved in FME’s frontend platform architecture and standards across the React codebase, contributing to planning and technical direction.

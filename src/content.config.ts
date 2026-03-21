@@ -23,7 +23,6 @@ const work = defineCollection({
     startDate: z.coerce.date(),
     endDate: z.coerce.date().optional(),
     skills: z.array(z.string()),
-    responsibilities: z.array(z.string()),
   }),
 });
 

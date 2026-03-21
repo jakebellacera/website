@@ -11,13 +11,6 @@ skills:
   - TypeScript
   - GraphQL
   - Java
-responsibilities:
-  - Led the UI platform team
-  - Rearchitected Split's billing implementation to allow for more flexible pricing packages
-  - Collaborated with other teams to improve development velocity
-  - Led the Experimentation team
-  - Shifted to a full stack model
-  - Hired 4 full stack engineers
 ---
 
 I led two teams at Split prior to acquisition:
