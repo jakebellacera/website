@@ -3,7 +3,7 @@ layout: ../layouts/Markdown.astro
 title: Jake Bellacera
 ---
 
-# Jake Bellacera
+# 👋 Hi, I'm Jake.
 
 I'm a software engineer focused on frontend platform work: component libraries, framework migrations, and developer tooling UI, mostly in TypeScript and React.
 

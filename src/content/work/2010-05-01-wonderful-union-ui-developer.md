@@ -9,7 +9,7 @@ skills:
   - PHP
   - HTML
   - CSS
-responsibilites:
+responsibilities:
   - Worked with design team to implement websites for artists on our in-house platform
   - Developed custom features depending on customer's needs
   - Helped improve the platform to streamline development

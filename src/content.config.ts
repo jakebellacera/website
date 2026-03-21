@@ -16,7 +16,7 @@ const company = defineCollection({
 });
 
 const work = defineCollection({
-  loader: glob({ base: "./src/content/blog", pattern: "**/*.md" }),
+  loader: glob({ base: "./src/content/work", pattern: "**/*.md" }),
   schema: z.object({
     title: z.string(),
     company: reference("company"),
