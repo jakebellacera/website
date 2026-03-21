@@ -1,6 +1,6 @@
 ---
 layout: ../layouts/Markdown.astro
-title: Contact Me
+title: Contact
 ---
 
 # Let's get in touch.

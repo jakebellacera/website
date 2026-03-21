@@ -1,6 +1,5 @@
 ---
 layout: ../layouts/Markdown.astro
-title: Jake Bellacera
 ---
 
 # Hi, I'm Jake.
