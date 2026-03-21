@@ -14,6 +14,12 @@ const { pathname } = Astro.url;
 const navItems = [
   { href: "/", label: "About", icon: IconType.Star },
   { href: "/work", label: "Work", icon: IconType.Briefcase },
+  {
+    href: "/contact",
+    label: "Contact",
+    icon: IconType.AtSymbol,
+    right: true,
+  },
 ];
 ---
 
@@ -35,10 +41,11 @@ const navItems = [
 		<div class="mx-auto sm:w-xl p-6 sm:py-12">
 			<header class="top-6 sticky z-2">
 				<nav class="flex gap-2 p-2 -mx-2 rounded-full transition duration-500">
-					{navItems.map(({ href, label, icon }) => (
+					{navItems.map(({ href, label, icon, right }) => (
 						<a href={href} class:list={["flex font-bold px-3 py-1 rounded-full items-center gap-1", {
 							"bg-link text-white dark:text-neutral-900 dark:bg-link-dark": pathname === href,
-							"text-neutral-600 transition dark:text-neutral-300 hover:text-inherit hover:inset-shadow-sm hover:bg-neutral-200 hover:dark:bg-neutral-700": pathname !== href
+							"text-neutral-600 transition dark:text-neutral-300 hover:text-inherit hover:inset-shadow-sm hover:bg-neutral-200 hover:dark:bg-neutral-700": pathname !== href,
+							"ml-auto": right === true
 						}]}><Icon icon={icon} /> {label}</a>
 					))}
 				</nav>
