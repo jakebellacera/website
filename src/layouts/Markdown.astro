@@ -1,4 +1,5 @@
 ---
+import Prose from "../ui/Prose.astro";
 import Layout from "./Layout.astro";
 
 interface Props {
@@ -12,7 +13,7 @@ const { title, description } = Astro.props.frontmatter;
 ---
 
 <Layout title={title} description={description}>
-	<main class="prose dark:prose-invert mx-auto max-w-xl px-6 py-12 sm:py-20">
+	<Prose>
 		<slot />
-	</main>
+  </Prose>
 </Layout>

@@ -3,26 +3,8 @@
 
 @theme {
   --font-sans: "Geist", sans-serif;
-}
-
-.prose a {
-  color: var(--color-blue-700);
-  text-decoration-color: var(--color-blue-300);
-}
-
-.prose a:hover {
-  color: var(--color-blue-900);
-  text-decoration-color: var(--color-blue-900);
-}
-
-@media (prefers-color-scheme: dark) {
-  .prose a {
-    color: var(--color-blue-400);
-    text-decoration-color: var(--color-blue-800);
-  }
-
-  .prose a:hover {
-    color: var(--color-blue-200);
-    text-decoration-color: var(--color-blue-200);
-  }
+  --color-link: oklch(64.5% 0.246 16.439); /* rose-500 */
+  --color-link-hover: oklch(58.6% 0.253 17.585); /* rose-600 */
+  --color-link-dark: oklch(64.5% 0.246 16.439); /* rose-500 */
+  --color-link-dark-hover: oklch(71.2% 0.194 13.428); /* rose-400 */
 }
