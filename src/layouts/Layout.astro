@@ -41,7 +41,7 @@ const navItems = [
 	<body class="font-sans antialiased bg-white text-neutral-900 dark:bg-neutral-950 dark:text-neutral-100">
 		<div class="mx-auto sm:w-xl p-6 sm:py-12">
 			<header class="top-6 sticky z-2">
-				<nav class="flex gap-2 p-2 -mx-2 rounded-full transition duration-500">
+				<nav class="flex gap-2 p-2 -mx-2 rounded-full transition duration-500 border border-neutral-200 dark:border-neutral-700">
 					{navItems.map(({ href, label, icon, right }) => (
 						<a href={href} class:list={["flex font-bold px-3 py-1 rounded-full items-center gap-1", {
 							"bg-link text-white dark:text-neutral-900 dark:bg-link-dark": pathname === href,
@@ -68,7 +68,6 @@ const navItems = [
 
 	nav {
 		background: rgba(255, 255, 255, 0.5);
-		border: 1px solid rgba(0, 0, 0, .1);
 		backdrop-filter: blur(4px) brightness(110%);
 		box-shadow: 0 0 0 transparent;
 	}
@@ -76,7 +75,6 @@ const navItems = [
 	@media (prefers-color-scheme: dark) {
 		nav {
 			background: --alpha(var(--color-neutral-950) / 50%);
-			border-color: rgba(255, 255, 255, .25);
 			backdrop-filter: blur(4px) brightness(80%);
 		}
 	}
