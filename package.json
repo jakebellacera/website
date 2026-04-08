@@ -16,17 +16,17 @@
     "check:ci": "biome ci"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.8",
-    "@astrojs/vercel": "^10.0.1",
-    "@tailwindcss/typography": "^0.5.19",
-    "@tailwindcss/vite": "^4.2.2",
-    "@vercel/analytics": "^2.0.1",
-    "astro": "^6.0.6",
-    "sharp": "^0.34.5",
-    "tailwindcss": "^4.2.2",
-    "typescript": "^5.9.3"
+    "@astrojs/check": "0.9.8",
+    "@astrojs/vercel": "10.0.4",
+    "@tailwindcss/typography": "0.5.19",
+    "@tailwindcss/vite": "4.2.2",
+    "@vercel/analytics": "2.0.1",
+    "astro": "6.1.4",
+    "sharp": "0.34.5",
+    "tailwindcss": "4.2.2",
+    "typescript": "6.0.2"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.4.8"
+    "@biomejs/biome": "2.4.10"
   }
 }
