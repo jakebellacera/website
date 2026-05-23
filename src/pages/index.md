@@ -4,8 +4,6 @@ layout: ../layouts/Markdown.astro
 
 # Hi, I'm Jake.
 
-I'm a software engineer focused on frontend platform work: component libraries, framework migrations, and developer tooling UI, mostly in TypeScript and React.
-
-Over the past 10 years, I've worked at [Harness](https://harness.io) (formerly [Split Software](https://split.io), acquired in 2024) and [Databricks](https://databricks.com), building products in the feature flagging, experimentation, and data platform spaces. During that time, I've been a contributor as well as a manager. Before then, I worked in advertising, building experiences for clients.
-
-**👉 I'm currently looking for my next role. If you're hiring, [let's talk](/contact)!**
+I'm an engineering manager with 10+ years of experience spanning individual contributor and leadership roles, most recently at Five9 as a Senior Engineering Manager. My focus is on building strong frontend foundations — design systems, component architecture, and scalable platforms — while leading teams that care about craft and user impact.
+ 
+I've spent time in engineering, management, and marketing, which gives me a perspective most engineers don't have: a deep understanding of what end users actually need and how good technical decisions translate into real business outcomes. I enjoy working with high-performing, distributed teams that want to get things done.
