@@ -30,6 +30,14 @@
     "logoDark": "./images/companies/eleven-logo-dark.svg"
   },
   {
+    "id": "five9",
+    "name": "Five9, Inc",
+    "description": "Leading cloud-native provider for CX and call center software.",
+    "location": "San Ramon, CA",
+    "logo": "./images/companies/five9-logo.svg",
+    "logoDark": "./images/companies/five9-logo-dark.svg"
+  },
+  {
     "id": "wonderful-union",
     "name": "Wonderful Union",
     "description": "Agency focused on VIP experiences as well as digital branding of artists. Acquired by WME Group in 2018.",
