@@ -56,11 +56,12 @@ function formatDuration(start: Date, end: Date): string {
     <h1>Work History</h1>
   </Prose>
   <div class="flex flex-col pt-12">
-    {groups.map((group) => {
+    {groups.map((group, gi) => {
       const company = companyMap.get(group.companyId)!;
+      const isLast = gi === groups.length - 1;
       return (
         <section class="flex gap-6">
-          <!-- Left column: logo circle + vertical line -->
+          <!-- Left column: logo circle + vertical line (or trailing dots on last) -->
           <div class="flex flex-col items-center shrink-0">
             <div class="w-12 h-12 rounded-full border border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-900 flex items-center justify-center shadow-sm shrink-0">
               <Image
@@ -76,7 +77,7 @@ function formatDuration(start: Date, end: Date): string {
                 />
               )}
             </div>
-            <div class="w-px flex-1 bg-neutral-200 dark:bg-neutral-700" />
+            <div class:list={["w-px flex-1", isLast ? "bg-gradient-to-b from-neutral-200 to-transparent dark:from-neutral-700" : "bg-neutral-200 dark:bg-neutral-700"]} />
           </div>
           <!-- Right column: company info + entries -->
           <div class="flex-1 pb-12">
